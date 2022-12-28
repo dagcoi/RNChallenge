@@ -1,7 +1,7 @@
 import { View, Text, TextStyle } from "react-native";
 import React from "react";
-import color from "src/themes/colors";
-import fontSize from "src/themes/fontSize";
+import fontSize from "../../themes/fontSize";
+import color from "../../themes/colors";
 
 interface PropsAppText {
     value?: string;

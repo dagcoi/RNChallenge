@@ -1,7 +1,7 @@
 import { View, Image, StyleSheet, TextStyle } from "react-native";
 import React from "react";
-import color from "src/themes/colors";
-import fontSize, { pixel } from "src/themes/fontSize";
+import color from "../../themes/colors";
+import fontSize, { pixel } from "../../themes/fontSize";
 import AppText from "../AppText";
 interface PropsAvatar {
     link?: string;

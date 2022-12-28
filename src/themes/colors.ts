@@ -30,8 +30,6 @@ const color = {
     colorPending: '#F8964A',
     paycheck2: '#D0F4FF',
     green: '#77a300',
-
-
 }
 
 export default color;
