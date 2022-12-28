@@ -26,5 +26,6 @@ const pixel = {
     seven: height * 28,
     eight: height * 32,
     nine: height * 36,
+    height60: height * 60,
 }
 export { heightpixel, pixel }

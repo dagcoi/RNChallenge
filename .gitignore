@@ -63,3 +63,4 @@ buck-out/
 #
 .jest/
 yarn.lock
+ios/Podfile.lock
