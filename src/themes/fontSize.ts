@@ -18,14 +18,14 @@ const heightpixel = height / 800
 
 const pixel = {
     one: heightpixel * 4,
-    two: height * 8,
-    three: height * 12,
-    four: height * 16,
-    five: height * 20,
-    six: height * 24,
-    seven: height * 28,
-    eight: height * 32,
-    nine: height * 36,
-    height60: height * 60,
+    two: heightpixel * 8,
+    three: heightpixel * 12,
+    four: heightpixel * 16,
+    five: heightpixel * 20,
+    six: heightpixel * 24,
+    seven: heightpixel * 28,
+    eight: heightpixel * 32,
+    nine: heightpixel * 36,
+    height60: heightpixel * 60,
 }
 export { heightpixel, pixel }

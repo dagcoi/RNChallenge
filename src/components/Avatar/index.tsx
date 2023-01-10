@@ -9,6 +9,8 @@ interface PropsAvatar {
     height?: number;
     size?: number | undefined;
 }
+const theme = 'default'
+
 
 export default function Avatar(props: PropsAvatar) {
     const { link, name, height, size } = props
@@ -18,7 +20,7 @@ export default function Avatar(props: PropsAvatar) {
                 source={{ uri: link }}
                 style={height ? { width: height, height: height, borderRadius: height / 2 } : styles.avatar}
             /> : <AppText
-                style={{ color: color.white, fontWeight: 'bold', fontSize: size || fontSize.large }}
+                style={{ color: color[theme].white, fontWeight: 'bold', fontSize: size || fontSize.large }}
                 value={name?.charAt(0).toUpperCase()}
             />}
         </View>
@@ -27,7 +29,7 @@ export default function Avatar(props: PropsAvatar) {
 
 const styles = StyleSheet.create({
     avatar: {
-        backgroundColor: color.primary,
+        backgroundColor: color[theme].primary,
         width: pixel.height60,
         height: pixel.height60,
         borderRadius: pixel.eight
